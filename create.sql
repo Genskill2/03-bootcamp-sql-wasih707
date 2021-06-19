@@ -17,6 +17,6 @@ create table subjects(
         
 create table books_subjects(
         book integer references books(id),
-        subject integer references subject(id)
+        subject integer references subjects(id)
         );
 
